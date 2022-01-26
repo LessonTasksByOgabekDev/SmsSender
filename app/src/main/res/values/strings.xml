@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMSSender</string>
+    <string name="enter_message_to_send">Enter Message to Send</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="_998">+998</string>
+</resources>

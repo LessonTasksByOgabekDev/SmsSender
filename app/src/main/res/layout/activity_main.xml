@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_number"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:maxLength="13"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/_998"
+        android:textAllCaps="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/textSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:hint="@string/enter_message_to_send"
+        android:gravity="bottom|left"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"
+        android:layout_margin="16dp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/send_sms"/>
+
+
+</LinearLayout>
